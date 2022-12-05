@@ -51,13 +51,14 @@ $(function(){
             $("header .logo").css("display","none");
             
         }
-    })
+    });
 
     // $(".modal-inner").focus(function(){
     //     $("#fullpage").removeClass(".section");
     // })
     $(".modal_btn button").click(function(){
-        $(".modal-inner").stop().fadeOut();
+        $("#fp-nav ul li:first-child a").trigger("click");
+        $(".modal-inner").stop(1000).fadeOut();
     })
 
 
