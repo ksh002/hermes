@@ -9,7 +9,7 @@ $(function(){
 		scrollHorizontally: true,
 		slidesNavigation: false, // 슬라이드섹션 네비게이션 유무
 		slidesNavPosition: 'bottom', //네비게이션 위치 (top,bottom)
-		// navigationTooltips: ['에르메스 홀리데이', '에르메스 맞춤안장'], //navigation active시 타이틀 노출여부(hover포함)
+		 navigationTooltips: ['에르메스 홀리데이', '에르메스 맞춤안장', '우아한 오브제', '파티 에디션', '당신만의 에르메스', '에르메스 선물'], //navigation active시 타이틀 노출여부(hover포함)
 		showActiveTooltip: true,  //네비게이션 hover(default:false)시 툴팁 표기
 		fitToSection: true,
 		fitToSectionDelay: 1000, // 섹션 넘어갈 때 걸리는 딜레이 시간
